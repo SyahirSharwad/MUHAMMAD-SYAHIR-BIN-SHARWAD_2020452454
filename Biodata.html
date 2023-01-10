@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>Biodata</title>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: darkblue;
+}
+
+.topnav a {
+  float: left;
+  color: lightgreen;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: green;
+  color: white;
+}
+
+
+body {
+  background-image: url('ASSESTS/IMAGES/BioWall.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: darkblue;
+  color: white;
+  width :100%;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+</style>
+</head>
+
+<body>
+
+<div class="topnav">
+  <a href="Index.html">Home</a>
+  <a class="active" href="Biodata.html">Biodata</a>
+  <a href="Experience.html">Experience</a>
+  <a href="Education.html">Education</a>
+  <a href="Family.html">Family</a>
+  <a href="Gallery.html">Gallery</a>
+</div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<marquee behavior="scroll" direction="left" scrollamount="6">
+
+<font color="red" size="70"><b><u><i>BIODATA</i></b></u></font>
+</marquee>
+
+
+<a href="ASSESTS/IMAGES/MyPicture.jpeg">
+
+<img src="ASSESTS/IMAGES/MyPicture.jpeg" align="right" border="5" alt="SYAHIR" vspace="50pt" style="width:350px;height:380px;">
+
+</a>
+
+<br>
+<br>
+<br>
+
+<body>
+
+
+
+<ol>
+  <li><font face="Monaco">NAME: MUHAMMAD SYAHIR BIN SHARWAD</font></li><br>
+
+  <li><font face="Monaco">AGE: 20 YEARS OLD</font></li><br>
+
+  <li><font face="Monaco">HOBBY: PLAYING BADMINTON AND LISTENING TO MUSIC</font></li><br>
+
+  <li><font face="Monaco">RELIGION: ISLAM </font></li><br>
+
+  <li><font face="Monaco">DATE OF BIRTH:<i> 12 <sup>th</sup> FEBRUARY 2002 </font></i></li><br> 
+
+  <li><font face="Monaco">RACE: MALAY </font></li><br>
+
+  <li><font face="Monaco">GENDER: MALE</font></li>
+</ol>
+
+</body>
+
+<marquee behavior="scroll" direction="left" scrollamount="7">
+
+<font color="blue" size="70"><b><u><i>BIODATA</i></b></u></font>
+</marquee>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<br><br><br>
+
+<body>
+
+<footer>
+<p><a href="https://wa.me/+601139323950/?text=urlencodedtext"><img src="ASSESTS/IMAGES/WsLogo.png" style="width:50px;height:50px"</a></p>
+</footer>
+
+</body>
+</html>
